@@ -1,0 +1,26 @@
+{
+    "greeting": {
+      "confirm_identity": "check_availability",
+      "deny_identity": "end_call"
+    },
+    "check_availability": {
+      "available": "assess_experience",
+      "not_available": "schedule_callback"
+    },
+    "assess_experience": {
+      "already_investing": "gauge_interest",
+      "exploring_options": "present_beginner_options"
+    },
+    "gauge_interest": {
+      "interested": "ask_age",
+      "not_interested": "end_call"
+    },
+    "ask_age": {
+      "provide_age": "present_tailored_options",
+      "decline_age": "present_general_options"
+    },
+    "schedule_callback": {
+      "accept_callback": "get_callback_time",
+      "decline_callback": "end_call"
+    }
+}
